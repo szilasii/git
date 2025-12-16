@@ -31,3 +31,25 @@ A GitHub egy felhőalapú platform Git repository-k tárolására és kezelésé
 
  >git --version
  >git version
+
+ ## Git alapvető parancsok
+
+ ### Lokális repository létrehozása
+
+ git init
+
+ git add .
+
+ git commit -m ""
+
+ git log
+
+ git reset HEAD~1
+
+ git status
+
+git remote add origin https://github.com/szilasii/git.git
+git branch -M main
+git push -u origin main
+ 
+
