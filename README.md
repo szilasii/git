@@ -15,5 +15,19 @@ A GitHub egy felhőalapú platform Git repository-k tárolására és kezelésé
 - Projektmenedzsment (Projects, Milestones)
 - Kód review és biztonság
 
-> Összefoglalva
+> Összefoglalva</br>
 **Git** = verziókezelő eszköz a gépeden **GitHub** = onlene platform a repository-k tárolására
+
+## Miért érdemes megtanulni?
+ - Csapatmunka (Több fejlesztő dolgozhat ugyanazon a projekten)
+ - Biztonság (Kód biztonságos tárolása, pl nem vész el)
+ - Történet  (Minden változás visszakövethető)
+ - Visszaállítás (Bármikor visszatérhetünk a korábbi verzióhoz)
+ - Iparági standard (A legtőbb cég **elvárja** a Git ismeretét)
+
+ ## Telepítés
+
+ ### Ellenörzés
+
+ >git --version
+ >git version
