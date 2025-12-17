@@ -70,6 +70,9 @@ A GitHub fiókod összekapcsolása a Git-tel:
     # Alapértelmezett branch neve
     git config --global init.defaultBranch main
 
+    # Alapértelmezett editor
+    git config --global core.editor "code"
+    
     # Beállítások ellenőrzése
     git config --list
 ```
@@ -116,3 +119,4 @@ git push origin main
 > CTRL + SHIFT + V Markdown file előnézete
 
 
+teszt
