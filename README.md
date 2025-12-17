@@ -72,7 +72,7 @@ A GitHub fiókod összekapcsolása a Git-tel:
 
     # Alapértelmezett editor
     git config --global core.editor "code"
-    
+
     # Beállítások ellenőrzése
     git config --list
 ```
@@ -120,3 +120,4 @@ git push origin main
 
 
 teszt
+teszt2
