@@ -112,5 +112,7 @@ git push origin main
     git branch -M main
     git push -u origin main
 ```
- 
+> CTRL + SHIFT + P code parancsok megnyítása<br>
+> CTRL + SHIFT + V Markdown file előnézete
+
 
