@@ -182,3 +182,20 @@ git push origin main
     git stash
     git stash pop
 ```
+# Git Commit üzenet konvenciók
+
+```
+<tipus>: <rövid leírás>
+# Típusok
+feat: új funkció
+fix: Hibajavítás
+docs: Dokumentáció
+style: Formázás (nem változik a kód)
+refactor: Refaktorálás
+test: Tesztek
+chore: Build, konfiguráció
+# Példa
+git commit -m "feat: add user Autentication"
+```
+# .gitignore
+Eza ***.gitignore*** fájl meghatározza, hogy mely fájlokat ne kövesse a git.
