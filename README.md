@@ -198,5 +198,5 @@ chore: Build, konfiguráció
 git commit -m "feat: add user Autentication"
 ```
 # .gitignore
-Eza ***.gitignore*** fájl meghatározza, hogy mely fájlokat ne kövesse a git.
-hjdsgfjhsgbfdshjfbgjhdsfbjhksfgbkjhsdfbgkjsdhfvbg
+Ez a ***.gitignore*** fájl meghatározza, hogy mely fájlokat ne kövesse a git.
+
