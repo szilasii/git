@@ -1,5 +1,27 @@
 # Mi az a GIT és GITHub?
 
+# Néhány fogalom
+    - Baseline egy fájl/dokumentum jováhagyott verziója
+    - Branch (ág) egy fájlnak több verzója is fejlődhet egyszerre
+    - Check-out lokális másolat
+    - Check-in, Commit vagy Submit lokális másolat feltöltése
+    - Conflict két egymást kiütő módosítás
+    - Change változtatás
+    - Change list cáltozások listája commito-on belül
+    - Export check-out metaadatok nélkül
+    - Head legutóbbi commit
+    - Import lokális adatok felmásolása és verziókontroll alá helyezése
+    - Mainline Egy branch fő ága
+    - Merge két változás összefűzése
+    - Repository verziók tárolóhelye
+    - Reverse integration egyes ágak összefüzése
+    - Revision verzió
+    - Trunk a fejlesztés olyan vonala ami nem ág
+    - Resolve változási konfliktusok feloldásának művelete
+    - Update a legutolsó szinkronizáció óta történt változtatások frissítése
+    - Working copy munkamásolat, lokális gépen
+
+
 ## Git
 A git egy elosztott verziokezelő rendser, amelyet Linus Torvald fejlesztett 2005-ben. Lehetővé teszi:
 - Kódválátozások nyomon követését.
@@ -124,6 +146,39 @@ git push origin main
 > CTRL + SHIFT + V Markdown file előnézete
 
 
-teszt
-teszt2
-teszt3
+## Branch kezelés
+```
+    # Branch-ek listázása
+    git branch
+    # Branch átnevezése
+    git branch (-m|-M) [<old-branch>] <new-branch>
+    # Branch léterhozása
+    git branch (-c|-C) [<old-branch>] <new-branch>
+    # Branch törlése
+    git branch (-d|-D) [-r] <branch-name>…​
+    
+    # Branch váltás
+    git checkout main
+
+    # Új branchlétrehozása és váltás
+    git checkout -b program
+
+
+
+```
+# Néhány hasznos parancs
+```
+    #Változások megtekintése
+    git diff
+    #Commitok története
+    git log --oneline
+    # Utolsó commit visszavonása (lokálisan)
+    git reset --soft HEAD~1
+    # utolso commit visszaállítása (minden változtatás is törlödik)
+    git reset HEAD~1
+    #fájl visszaállítása
+    git checkout <fájlnév>
+    #Stash változások ideiglenes félretétele
+    git stash
+    git stash pop
+```
