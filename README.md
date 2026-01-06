@@ -199,3 +199,4 @@ git commit -m "feat: add user Autentication"
 ```
 # .gitignore
 Eza ***.gitignore*** fájl meghatározza, hogy mely fájlokat ne kövesse a git.
+hjdsgfjhsgbfdshjfbgjhdsfbjhksfgbkjhsdfbgkjsdhfvbg
