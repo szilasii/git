@@ -1,4 +1,5 @@
 print("haliho!")
 print("gsdhjfgsdh")
+print("Dominik2")
 print("kettő")
 print("Dominik")
