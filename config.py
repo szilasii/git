@@ -1,0 +1,1 @@
+print('Miki config')
