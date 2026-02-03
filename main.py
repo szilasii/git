@@ -10,4 +10,5 @@ print("Új sor")
 print("Ricsi")
 print("test")
 print("szilasi")
-print("szilasi2")
+print("alma")
+
