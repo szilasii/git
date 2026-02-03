@@ -12,4 +12,6 @@ print("test")
 print("szilasi")
 print("alma")
 print("körte")
+print("répa")
+
 print("banán")
