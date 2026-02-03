@@ -14,4 +14,5 @@ print("alma")
 print("körte")
 print("répa")
 
+print("banán")
 print("Kedd")
