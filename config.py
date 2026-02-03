@@ -1,1 +1,1 @@
-print('Miki config')
+print("isti config")
