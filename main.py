@@ -9,3 +9,5 @@ print("Miki")
 print("Új sor")
 print("Ricsi")
 print("test")
+
+print("Ricsi 2026.02.03")
