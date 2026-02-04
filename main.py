@@ -16,9 +16,8 @@ print("répa")
 print("banán")
 print("szilva")
 print("Kedd")
-<<<<<<< HEAD
 print("lilcheese")
-=======
 print("isti branch")
 print("Kisegér")
->>>>>>> main
+print("valamimás")
+print("Újabb sor2")
