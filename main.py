@@ -1,24 +1,2 @@
-print("haliho!")
-print("gsdhjfgsdh")
-print("Dominik2") 
-print("kettő")
-print("Dominik")
-print("valami")
-print("Alfréd")
-print("Miki")
-print("Új sor")
-print("Ricsi")
-print("test")
-print("szilasi")
-print("alma")
-print("körte")
-print("répa")
-print("banán")
-print("szilva")
-print("Kedd")
-<<<<<<< HEAD
-print("lilcheese")
-=======
-print("isti branch")
-print("Kisegér")
->>>>>>> main
+def minus(a,b):
+    return a - b
