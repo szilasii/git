@@ -1,4 +1,5 @@
 def kivon(a, b):
+def osszead(a, b):
     return a + b
 
 print(osszead(5,4))
