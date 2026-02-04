@@ -1,3 +1,3 @@
 def szoroz(a,b):
     eredmeny = a * b
-    return eredmeny
+    print(f"A két szám szorzata: {eredmeny}")
